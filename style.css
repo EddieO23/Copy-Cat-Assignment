@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {border-radius: 5px;
+    /* outline: 1px solid red; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* nav bar */
+header {
+    /* display: flex; */
+    /* text-align: left; */
+    /* position: fixed;
+    top: 30px; */
+    background-color: #448dbb;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+header nav ul li a {
+text-decoration: none;
+color: white;
+
+}
+
+header nav ul li a:hover {
+text-decoration: underline;
+}
+
+
+
+
+header nav #left li {
+
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+}
+header nav #right li {
+    list-style: none;
+text-align: right;
+display: inline-block;
+}
+
+
+
+
+
+
+main {
+    width: 100%;
+}
+main .hero-image img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons div a {
+    color: white;
+}
+
+
+
+
+.articles {
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    float: left;
+}
+.articles .content-card {
+width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row;
+
+}
+
+.articles .content-card div {
+    margin: 1em;
+    width: 50%;
+    padding: 0 35px 0 0;
+}
+
+.articles .content-card a {
+    text-decoration: none;
+    color: #ef87b2;
+    
+}
+/********************************************section with big image*************************************** */
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 75%;
+height: 0 auto;
+}
+/**********************For business section*********************************************/
+
+.For-business div {
+    margin: 1em;
+    text-align: center;
+}
+
+
+
+
+.For-business {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.For-business a {
+    color: #ef87b2;
+}
+
+/**********************Footer Section*********************************************/
+
+
+footer .follow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* footer .back-button {
+    display: flex;
+    align-items: flex-end;
+} */
